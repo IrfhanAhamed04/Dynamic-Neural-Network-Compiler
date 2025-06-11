@@ -28,7 +28,7 @@ def main():
 
     # AutoML optimization
     opt_config = OptimizationConfig(
-        max_trials=5,
+        max_trials=10,
         timeout_seconds=300,
         primary_metric="accuracy"
     )
